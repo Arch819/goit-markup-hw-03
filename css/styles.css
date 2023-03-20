@@ -1,0 +1,209 @@
+:root {
+    --color-primary-brand: #4D5AE5;
+    --color-pressed-state: #404BBF;
+    --color-valid-success: #31D0AA;
+    --color-subtle-text: #8E8F99;
+    --color-accent-text: #E7E9FC;
+    --background-alerts: #F4F4FD;
+    --color-body-text: #434455;
+    --background-color-text: #2E2F42;
+    --color-hover-heading: #ffffff;
+
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: var(--color-hover-heading);
+    color: var(--color-body-text);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    background: var(--color-pressed-state);
+}
+
+/**------------------------------------ header------------------------------------------- */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--color-primary-brand);
+}
+
+.logo-firstword {
+    color: var(--background-color-text);
+}
+
+.navigation-items>.link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--background-color-text);
+}
+
+.contact {
+    color: var(--color-body-text);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-body-text);
+}
+
+.navigation-items .link:hover,
+.navigation-items .link:focus,
+.contact-item .contact:hover,
+.contact-item .contact:focus {
+    color: #404BBF;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+/**------------------------------------ index-main--------------------------------------- */
+
+/*?------------------------------------ hero--------------------------------------- */
+.hero {
+    background-color: var(--background-color-text);
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--color-hover-heading);
+}
+
+.hero-btn {
+    background: var(--color-primary-brand);
+    color: var(--color-hover-heading);
+}
+
+/*?------------------------------------privilages--------------------------------------- */
+
+.item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--background-color-text);
+}
+
+.item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-body-text);
+}
+
+/*?------------------------------------work--------------------------------------- */
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--background-color-text);
+}
+
+/*?------------------------------------team--------------------------------------- */
+.team {
+    background: var(--background-alerts);
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--background-color-text);
+}
+
+.team-itam {
+    background-color: var(--color-hover-heading);
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--background-color-text);
+}
+
+.team-role {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-body-text);
+}
+
+/**------------------------------------ portfolio - main---------------------------------  */
+/*------------------------------------exampleworks--------------------------------------- */
+.filter-btn {
+    background: var(--background-alerts);
+    color: var(--color-primary-brand);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--color-hover-heading);
+}
+
+.exampleworks-item .item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--background-color-text);
+}
+
+.exampleworks-item .item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-body-text);
+}
+
+/**------------------------------------ footer-------------------------------------------  */
+.footer {
+    background: var(--background-color-text);
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--color-accent-text);
+}
+
+.logo-footerword {
+    color: var(--background-alerts);
+}
