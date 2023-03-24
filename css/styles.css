@@ -64,7 +64,6 @@ img {
     letter-spacing: 0.04em;
     cursor: pointer;
     border-radius: 4px;
-    display: inline-block;
 }
 
 .btn:hover,
@@ -102,16 +101,18 @@ img {
 
 .header-wrapp {
     display: flex;
+    align-items: center;
 }
 
 .header .link {
+    display: block;
     padding: 24px 0;
 }
 
 .site-navigation {
     display: flex;
     margin-right: auto;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .header-wrapp .logo {
@@ -137,7 +138,6 @@ img {
 }
 
 .contact {
-    display: inline-block;
     color: var(--color-body-text);
     font-weight: 400;
     font-size: 16px;
@@ -166,12 +166,12 @@ img {
     background-color: var(--background-color-text);
     padding-top: 188px;
     padding-bottom: 188px;
+    text-align: center;
 }
 
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-hover-heading);
     width: 496px;
@@ -183,10 +183,10 @@ img {
 .hero-btn {
     background: var(--color-primary-brand);
     color: var(--color-hover-heading);
-    margin: 0 auto;
     min-width: 169px;
+    height: 56px;
     padding: 16px 32px;
-    border: none;
+    border: 1px solid transparent;
 }
 
 /*?------------------------------------privilages--------------------------------------- */
@@ -306,6 +306,7 @@ img {
 
 .filter-btn {
     background: var(--background-alerts);
+    height: 48px;
     color: var(--color-primary-brand);
     padding: 12px 24px;
     border: 1px solid var(--color-accent-text);
@@ -314,6 +315,7 @@ img {
 .filter-btn:hover,
 .filter-btn:focus {
     color: var(--color-hover-heading);
+    border-color: transparent;
 }
 
 .exampleworks-list {
@@ -321,6 +323,10 @@ img {
     flex-wrap: wrap;
     gap: 48px 24px;
 
+}
+
+.exampleworks-item {
+    flex-basis: ((100% - 48px) / 3);
 }
 
 .item-wrapp {
